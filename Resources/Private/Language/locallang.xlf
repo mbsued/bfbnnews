@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:bfbnnews/Resources/Private/Language/locallang" date="2021-02-22T14:00:36Z" product-name="bfbnnews">
+		<header/>
+		<body>
+			<trans-unit id="tx_bfbnnews_domain_model_bfbntermin" resname="tx_bfbnnews_domain_model_bfbntermin">
+				<source>Bfbntermin</source>
+			</trans-unit>
+			<trans-unit id="tx_bfbnnews_domain_model_bfbntermin.termin" resname="tx_bfbnnews_domain_model_bfbntermin.termin">
+				<source>Termin</source>
+			</trans-unit>
+			<trans-unit id="tx_bfbnnews_domain_model_bfbntermin.betreff" resname="tx_bfbnnews_domain_model_bfbntermin.betreff">
+				<source>Betreff</source>
+			</trans-unit>
+			<trans-unit id="tx_bfbnnews_domain_model_bfbntermin.beginndatum" resname="tx_bfbnnews_domain_model_bfbntermin.beginndatum">
+				<source>Beginndatum</source>
+			</trans-unit>
+			<trans-unit id="tx_bfbnnews_domain_model_bfbntermin.beginnuhrzeit" resname="tx_bfbnnews_domain_model_bfbntermin.beginnuhrzeit">
+				<source>Beginnuhrzeit</source>
+			</trans-unit>
+			<trans-unit id="tx_bfbnnews_domain_model_bfbntermin.endedatum" resname="tx_bfbnnews_domain_model_bfbntermin.endedatum">
+				<source>Endedatum</source>
+			</trans-unit>
+			<trans-unit id="tx_bfbnnews_domain_model_bfbntermin.endeuhrzeit" resname="tx_bfbnnews_domain_model_bfbntermin.endeuhrzeit">
+				<source>Endeuhrzeit</source>
+			</trans-unit>
+			<trans-unit id="tx_bfbnnews_domain_model_bfbntermin.veranstaltungsort" resname="tx_bfbnnews_domain_model_bfbntermin.veranstaltungsort">
+				<source>Veranstaltungsort</source>
+			</trans-unit>
+			<trans-unit id="tx_bfbnnews_domain_model_bfbntermin.veranstalter" resname="tx_bfbnnews_domain_model_bfbntermin.veranstalter">
+				<source>Veranstalter</source>
+			</trans-unit>
+			<trans-unit id="tx_bfbnnews_domain_model_bfbntermin.alarm" resname="tx_bfbnnews_domain_model_bfbntermin.alarm">
+				<source>Alarm</source>
+			</trans-unit>
+			<trans-unit id="tx_bfbnnews_domain_model_bfbntermin.erinnerung" resname="tx_bfbnnews_domain_model_bfbntermin.erinnerung">
+				<source>Erinnerung</source>
+			</trans-unit>
+			<trans-unit id="tx_bfbnnews_domain_model_bfbntermin.erinnerung.I.0" resname="tx_bfbnnews_domain_model_bfbntermin.erinnerung.I.0">
+				<source>1 Tag</source>
+			</trans-unit>
+			<trans-unit id="tx_bfbnnews_domain_model_bfbntermin.erinnerung.I.1" resname="tx_bfbnnews_domain_model_bfbntermin.erinnerung.I.1">
+				<source>2 Tage</source>
+			</trans-unit>
+			<trans-unit id="tx_bfbnnews_domain_model_bfbntermin.erinnerung.I.2" resname="tx_bfbnnews_domain_model_bfbntermin.erinnerung.I.2">
+				<source>3 Tage</source>
+			</trans-unit>
+			<trans-unit id="tx_bfbnnews_domain_model_bfbntermin.erinnerung.I.3" resname="tx_bfbnnews_domain_model_bfbntermin.erinnerung.I.3">
+				<source>1 Woche</source>
+			</trans-unit>			
+		</body>
+	</file>
+</xliff>

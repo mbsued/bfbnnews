@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:bfbnnews/Resources/Private/Language/locallang_csh" date="2021-02-22T14:00:36Z" product-name="bfbnnews">
+		<header/>
+		<body>
+			<trans-unit id="termin.description" resname="termin.description">
+				<source>Termin</source>
+			</trans-unit>
+			<trans-unit id="betreff.description" resname="betreff.description">
+				<source>Betreff des Termins</source>
+			</trans-unit>
+			<trans-unit id="beginndatum.description" resname="beginndatum.description">
+				<source>Beginndatum des Termins</source>
+			</trans-unit>
+			<trans-unit id="beginnuhrzeit.description" resname="beginnuhrzeit.description">
+				<source>Beginnuhrzeit des Termins</source>
+			</trans-unit>
+			<trans-unit id="endedatum.description" resname="endedatum.description">
+				<source>Endedatum des Termins</source>
+			</trans-unit>
+			<trans-unit id="endeuhrzeit.description" resname="endeuhrzeit.description">
+				<source>Endeuhrzeit des Termins</source>
+			</trans-unit>
+			<trans-unit id="veranstaltungsort.description" resname="veranstaltungsort.description">
+				<source>Veranstaltungsort</source>
+			</trans-unit>
+			<trans-unit id="veranstalter.description" resname="veranstalter.description">
+				<source>Veranstalter</source>
+			</trans-unit>
+			<trans-unit id="alarm.description" resname="alarm.description">
+				<source>Alarm</source>
+			</trans-unit>
+			<trans-unit id="erinnerung.description" resname="erinnerung.description">
+				<source>Erinnerung</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
