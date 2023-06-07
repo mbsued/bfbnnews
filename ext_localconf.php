@@ -14,5 +14,5 @@ $GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects'][\GeorgRinger\News\Domain\Repositor
 ];
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig(
-   'TCAdefaults.tx_news_domain_model_news.endtime ='.strtotime('+3 years')
+   'TCAdefaults.tx_news_domain_model_news.endtime ='.strtotime('+2 years')
 );
