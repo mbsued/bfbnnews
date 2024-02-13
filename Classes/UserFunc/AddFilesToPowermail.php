@@ -5,7 +5,7 @@ namespace Bfbnnews\Bfbnnews\UserFunc;
 
 use TYPO3\CMS\Frontend\ContentObject\ContentObjectRenderer;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
-use ‪TYPO3\CMS\Frontend\Resource\FileCollector;
+use TYPO3\CMS\Frontend\Resource\FileCollector;
 
 /**
  * Class AddFilesToPowermail
