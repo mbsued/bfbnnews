@@ -10,12 +10,11 @@ $tmp_bfbnnews_columns = [
             'type' => 'check',
 			'renderType' => 'checkboxToggle',
 			'default' => 0,
-			'items' => [
-				[
-					0 => '',
-					1 => '',
-				]
-			],
+                'items' => [
+                    [
+                        'label' => '',
+                    ]
+                ],
         ]
 
     ],
@@ -32,22 +31,24 @@ $tmp_bfbnnews_columns = [
         'exclude' => true,
         'label' => 'LLL:EXT:bfbnnews/Resources/Private/Language/locallang_db.xlf:tx_bfbnnews_domain_model_bfbntermin.beginndatum',
         'config' => [
-            'type' => 'input',
-            'renderType' => 'inputDateTime',
-            'size' => 16,
-            'eval' => 'datetime,int',
-            'default' => 0,
+			'type' => 'datetime', 
+			'format' => 'datetime',
+			'default' => 0,
+			'behaviour' => [
+				'allowLanguageSynchronization' => true
+			]			
         ],
     ],
 	'ende_termin' => [
         'exclude' => true,
         'label' => 'LLL:EXT:bfbnnews/Resources/Private/Language/locallang_db.xlf:tx_bfbnnews_domain_model_bfbntermin.endedatum',
         'config' => [
-            'type' => 'input',
-            'renderType' => 'inputDateTime',
-            'size' => 16,
-            'eval' => 'datetime,int',
-            'default' => 0,
+			'type' => 'datetime', 
+			'format' => 'datetime',
+			'default' => 0,
+			'behaviour' => [
+				'allowLanguageSynchronization' => true
+			]			
         ],
     ],
     'veranstaltungsort' => [
@@ -75,12 +76,11 @@ $tmp_bfbnnews_columns = [
             'type' => 'check',
 			'renderType' => 'checkboxToggle',
 			'default' => 0,
-			'items' => [
-				[
-					0 => '',
-					1 => '',
-				]
-			],
+                'items' => [
+                    [
+                        'label' => '',
+                    ]
+                ],
         ]
     ],
     'erinnerung' => [
@@ -89,17 +89,28 @@ $tmp_bfbnnews_columns = [
         'config' => [
         	'renderType' => 'selectSingle',
             'type' => 'select',
-            'items' => [
-                ['LLL:EXT:bfbnnews/Resources/Private/Language/locallang_db.xlf:tx_bfbnnews_domain_model_bfbntermin.erinnerung.I.0', '0'],
-                ['LLL:EXT:bfbnnews/Resources/Private/Language/locallang_db.xlf:tx_bfbnnews_domain_model_bfbntermin.erinnerung.I.1', '1'],
-                ['LLL:EXT:bfbnnews/Resources/Private/Language/locallang_db.xlf:tx_bfbnnews_domain_model_bfbntermin.erinnerung.I.2', '2'],
-                ['LLL:EXT:bfbnnews/Resources/Private/Language/locallang_db.xlf:tx_bfbnnews_domain_model_bfbntermin.erinnerung.I.3', '3'],
-            ],
+			'items' => [
+				0 => [
+					'label' => 'LLL:EXT:bfbnnews/Resources/Private/Language/locallang_db.xlf:tx_bfbnnews_domain_model_bfbntermin.erinnerung.I.0',
+					'value' => 0,
+				],
+				1 => [
+					'label' => 'LLL:EXT:bfbnnews/Resources/Private/Language/locallang_db.xlf:tx_bfbnnews_domain_model_bfbntermin.erinnerung.I.1',
+					'value' => 1,
+				],
+				2 => [
+					'label' => 'LLL:EXT:bfbnnews/Resources/Private/Language/locallang_db.xlf:tx_bfbnnews_domain_model_bfbntermin.erinnerung.I.2',
+					'value' => 2,
+				],
+				3 => [
+					'label' => 'LLL:EXT:bfbnnews/Resources/Private/Language/locallang_db.xlf:tx_bfbnnews_domain_model_bfbntermin.erinnerung.I.3',
+					'value' => 3,
+				],				
+			],			
             'size' => 4,    
             'maxitems' => 1,
         ]
     ],
-
 ];
 
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTCAcolumns('tx_news_domain_model_news',$tmp_bfbnnews_columns);
