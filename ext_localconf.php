@@ -1,4 +1,8 @@
 <?php
+
+use Bfbnnews\Bfbnnews\Backend\FormDataProvider\NewsRowInitializeNew;
+use TYPO3\CMS\Backend\Form\FormDataProvider\DatabaseRowInitializeNew;
+
 defined('TYPO3') || die('Access denied.');
 
 $GLOBALS['TYPO3_CONF_VARS']['EXT']['news']['classes']['Domain/Model/News'][] = 'bfbnnews';
@@ -13,6 +17,8 @@ $GLOBALS['TYPO3_CONF_VARS']['SYS']['Objects'][\GeorgRinger\News\Domain\Repositor
 'className' => \Bfbnnews\Bfbnnews\Domain\Repository\NewsRepository::class
 ];
 
-\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig(
-   'TCAdefaults.tx_news_domain_model_news.endtime ='.strtotime('+2 years')
-);
+$GLOBALS['TYPO3_CONF_VARS']['SYS']['formEngine']['formDataGroup']['tcaDatabaseRecord'][NewsRowInitializeNew::class] = [
+	'depends' => [
+		DatabaseRowInitializeNew::class,
+	],
+];
